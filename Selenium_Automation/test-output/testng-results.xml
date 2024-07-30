@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-24T13:32:44 UTC" name="Default suite" finished-at="2024-07-24T13:33:16 UTC" duration-ms="31589">
+    <groups>
+      <group name="Functional">
+        <method signature="Group_SC01.loginMe()[pri:1, instance:Ecom_automation_Group.Group_SC01@708f5957]" name="loginMe" class="Ecom_automation_Group.Group_SC01"/>
+        <method signature="Group_SC01.closeMe()[pri:11, instance:Ecom_automation_Group.Group_SC01@708f5957]" name="closeMe" class="Ecom_automation_Group.Group_SC01"/>
+        <method signature="Group_SC01.logoutMe()[pri:10, instance:Ecom_automation_Group.Group_SC01@708f5957]" name="logoutMe" class="Ecom_automation_Group.Group_SC01"/>
+        <method signature="Group_SC01.searchMe()[pri:2, instance:Ecom_automation_Group.Group_SC01@708f5957]" name="searchMe" class="Ecom_automation_Group.Group_SC01"/>
+        <method signature="Group_SC01.launchMe()[pri:-2, instance:Ecom_automation_Group.Group_SC01@708f5957]" name="launchMe" class="Ecom_automation_Group.Group_SC01"/>
+      </group> <!-- Functional -->
+      <group name="Sanity">
+        <method signature="Group_SC01.loginMe()[pri:1, instance:Ecom_automation_Group.Group_SC01@708f5957]" name="loginMe" class="Ecom_automation_Group.Group_SC01"/>
+        <method signature="Group_SC01.closeMe()[pri:11, instance:Ecom_automation_Group.Group_SC01@708f5957]" name="closeMe" class="Ecom_automation_Group.Group_SC01"/>
+        <method signature="Group_SC01.logoutMe()[pri:10, instance:Ecom_automation_Group.Group_SC01@708f5957]" name="logoutMe" class="Ecom_automation_Group.Group_SC01"/>
+        <method signature="Group_SC01.searchMe()[pri:2, instance:Ecom_automation_Group.Group_SC01@708f5957]" name="searchMe" class="Ecom_automation_Group.Group_SC01"/>
+        <method signature="Group_SC01.launchMe()[pri:-2, instance:Ecom_automation_Group.Group_SC01@708f5957]" name="launchMe" class="Ecom_automation_Group.Group_SC01"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="Group_SC01.loginMe()[pri:1, instance:Ecom_automation_Group.Group_SC01@708f5957]" name="loginMe" class="Ecom_automation_Group.Group_SC01"/>
+        <method signature="Group_SC01.closeMe()[pri:11, instance:Ecom_automation_Group.Group_SC01@708f5957]" name="closeMe" class="Ecom_automation_Group.Group_SC01"/>
+        <method signature="Group_SC01.logoutMe()[pri:10, instance:Ecom_automation_Group.Group_SC01@708f5957]" name="logoutMe" class="Ecom_automation_Group.Group_SC01"/>
+        <method signature="Group_SC01.launchMe()[pri:-2, instance:Ecom_automation_Group.Group_SC01@708f5957]" name="launchMe" class="Ecom_automation_Group.Group_SC01"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2024-07-24T13:32:44 UTC" name="Default test" finished-at="2024-07-24T13:33:16 UTC" duration-ms="31589">
+      <class name="Ecom_automation_Group.Group_SC01">
+        <test-method signature="launchMe()[pri:-2, instance:Ecom_automation_Group.Group_SC01@708f5957]" started-at="2024-07-24T13:32:45 UTC" name="launchMe" finished-at="2024-07-24T13:32:51 UTC" duration-ms="6271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchMe -->
+        <test-method signature="loginMe()[pri:1, instance:Ecom_automation_Group.Group_SC01@708f5957]" started-at="2024-07-24T13:32:51 UTC" name="loginMe" finished-at="2024-07-24T13:33:10 UTC" duration-ms="19686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginMe -->
+        <test-method signature="searchMe()[pri:2, instance:Ecom_automation_Group.Group_SC01@708f5957]" started-at="2024-07-24T13:33:10 UTC" name="searchMe" finished-at="2024-07-24T13:33:14 UTC" depends-on-methods="Ecom_automation_Group.Group_SC01.loginMe" duration-ms="3369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchMe -->
+        <test-method signature="logoutMe()[pri:10, instance:Ecom_automation_Group.Group_SC01@708f5957]" started-at="2024-07-24T13:33:14 UTC" name="logoutMe" finished-at="2024-07-24T13:33:16 UTC" depends-on-methods="Ecom_automation_Group.Group_SC01.loginMe" duration-ms="1955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutMe -->
+        <test-method signature="closeMe()[pri:11, instance:Ecom_automation_Group.Group_SC01@708f5957]" started-at="2024-07-24T13:33:16 UTC" name="closeMe" finished-at="2024-07-24T13:33:16 UTC" depends-on-methods="Ecom_automation_Group.Group_SC01.loginMe" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeMe -->
+      </class> <!-- Ecom_automation_Group.Group_SC01 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

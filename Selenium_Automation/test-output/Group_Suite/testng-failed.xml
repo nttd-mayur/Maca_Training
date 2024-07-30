@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Group_Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test1(failed)">
+    <groups>
+      <run>
+        <include name="Sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Ecom_automation_Group.Group_SC01">
+        <methods>
+          <include name="closeMe"/>
+          <include name="searchMe"/>
+          <include name="loginMe"/>
+          <include name="logoutMe"/>
+        </methods>
+      </class> <!-- Ecom_automation_Group.Group_SC01 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Group_Suite] -->

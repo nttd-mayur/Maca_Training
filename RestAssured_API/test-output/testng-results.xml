@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-26T12:49:47 UTC" name="Default suite" finished-at="2024-07-26T12:49:49 UTC" duration-ms="2168">
+    <groups>
+    </groups>
+    <test started-at="2024-07-26T12:49:47 UTC" name="Default test" finished-at="2024-07-26T12:49:49 UTC" duration-ms="2168">
+      <class name="postRequest.captureResponse">
+        <test-method signature="getSingle()[pri:2, instance:postRequest.captureResponse@31c88ec8]" started-at="2024-07-26T12:49:47 UTC" name="getSingle" finished-at="2024-07-26T12:49:49 UTC" duration-ms="2108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSingle -->
+      </class> <!-- postRequest.captureResponse -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

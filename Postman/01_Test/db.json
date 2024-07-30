@@ -1,0 +1,36 @@
+{
+  "persons": [
+    {
+      "firstName": "Mayur",
+      "LastName": "Kar",
+      "age": 26,
+      "id": "1",
+      "address": "Pune, India",
+      "PhoneNumber": "123-123-123"
+    },
+    {
+      "firstName": "Ayush",
+      "LastName": "Home",
+      "age": 13,
+      "id": "2",
+      "address": "Tokyo, Japan",
+      "PhoneNumber": "123-123-123"
+    },
+    {
+      "firstName": "Raj",
+      "LastName": "Rahul",
+      "age": 30,
+      "id": "3",
+      "address": "New York, America",
+      "PhoneNumber": "123-123-123"
+    },
+    {
+      "id": "6f8d",
+      "firstName": "{{fName}}",
+      "LastName": "{{lName}}",
+      "age": 30,
+      "address": "North Alva",
+      "PhoneNumber": "123-123-002"
+    }
+  ]
+}

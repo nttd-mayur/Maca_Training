@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suit_Ecom">
+  <test name="Test1">
+    <classes>
+      <class name="Ecom_automation.SC01"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test2">
+    <classes>
+      <class name="Ecom_automation.SC02"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suit_Ecom -->
